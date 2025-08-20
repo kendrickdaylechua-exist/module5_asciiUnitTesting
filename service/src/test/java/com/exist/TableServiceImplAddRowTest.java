@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-public class AddRowTest {
+public class TableServiceImplAddRowTest {
     private final PrintStream standardOut = System.out;
 
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();

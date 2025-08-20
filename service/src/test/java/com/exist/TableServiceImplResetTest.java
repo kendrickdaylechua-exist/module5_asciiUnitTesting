@@ -12,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mockStatic;
 
-public class ResetTest {
+public class TableServiceImplResetTest {
     private final PrintStream standardOut = System.out;
     private final PrintStream standardErr = System.err;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();

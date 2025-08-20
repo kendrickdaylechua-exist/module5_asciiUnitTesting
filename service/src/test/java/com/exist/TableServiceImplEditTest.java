@@ -14,7 +14,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mockStatic;
 
-public class EditTest {
+public class TableServiceImplEditTest {
     private final PrintStream standardOut = System.out;
     private final PrintStream standardErr = System.err;
     private final InputStream standardIn = System.in;

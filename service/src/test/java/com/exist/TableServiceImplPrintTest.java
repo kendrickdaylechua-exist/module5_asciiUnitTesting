@@ -3,8 +3,6 @@ package com.exist;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.MockedStatic;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -14,7 +12,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mockStatic;
 
-public class PrintTest {
+public class TableServiceImplPrintTest {
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
     private List<List<Element>> sampleTableData;

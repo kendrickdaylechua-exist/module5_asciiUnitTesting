@@ -1,6 +1,6 @@
-com\exist\EditTest.class
-com\exist\AddRowTest.class
-com\exist\ResetTest.class
-com\exist\PrintTest.class
-com\exist\SearchTest.class
-com\exist\SortTest.class
+com\exist\TableServiceImplAddRowTest.class
+com\exist\TableServiceImplEditTest.class
+com\exist\TableServiceImplResetTest.class
+com\exist\TableServiceImplSearchTest.class
+com\exist\TableServiceImplPrintTest.class
+com\exist\TableServiceImplSortTest.class

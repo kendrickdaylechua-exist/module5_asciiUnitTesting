@@ -15,7 +15,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SortTest {
+public class TableServiceImplSortTest {
     private final PrintStream standardOut = System.out;
     private final PrintStream standardErr = System.err;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();

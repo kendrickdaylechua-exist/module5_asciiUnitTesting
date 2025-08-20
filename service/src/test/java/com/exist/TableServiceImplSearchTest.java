@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mockStatic;
 
-public class SearchTest {
+public class TableServiceImplSearchTest {
     private final PrintStream standardOut = System.out;
     private final PrintStream standardErr = System.err;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
