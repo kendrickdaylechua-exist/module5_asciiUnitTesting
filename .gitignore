@@ -5,7 +5,7 @@
 /mavenHomeManager.xml
 
 ### Maven ###
-target/
+*/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -17,7 +17,7 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 ### IntelliJ IDEA ###
-.idea
+/.idea
 *.iws
 *.iml
 *.ipr
